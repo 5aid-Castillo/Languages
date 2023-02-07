@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root{
+  --first-color: ;
+  --black-color: black;
+  --white-color: white; 
+  --bg-color: teal;
+  --font-logo: 'Lobster', cursive;
+  --font-title: 'Nunito', sans-serif;
+  --opacity:rgba(98, 101, 103 ,0.7);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
 }
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body{
+ 
+  margin: 0;
+  overflow-x: hidden;
+}
+/* 
+h1{
+  margin: 0;
+  font-size: 2rem;
+}
+h2{
+  margin: 0;
+  font-size: 1.5rem;
+}
+h3{
+  margin: 0;
+  font-size: 1.25rem;
+}
+h4{
+  margin: 0;
+  font-size: 1rem;
+}
+h5{
+  margin: 0;
+  font-size: 0.85rem;
+}
+h6{
+  margin: 0;
+  font-size: 0.7rem;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+p{
+  line-height: 1.6;
+} */
+

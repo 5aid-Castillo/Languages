@@ -1,0 +1,207 @@
+img{
+    width: 100%;
+    vertical-align: top;
+  
+  }
+  
+  .banderas{
+    margin-bottom: 2rem;
+  }
+  .bandera{
+    cursor: pointer;
+    width: 75px;
+    margin: 10px;
+  
+  }
+  .botones{
+    text-align: center;
+  
+  }
+  
+ /*   .botones button{
+      width: auto;
+      background-color: white;
+      padding: 5px 8px;
+      margin: 10px;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      color: white;
+      background-color: teal;
+      font-size: 1.05em;
+      box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+      cursor: pointer;
+      font-weight: 600;
+  }  */
+  .botones button{
+    
+  align-items: center;
+  background-clip: padding-box;
+  background-color: teal;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 1rem;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  }
+  .botones button:hover,
+.botones button:focus {
+  background-color: #1ABC9C ;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.botones button:hover {
+  transform: translateY(-1px);
+}
+
+.botonoes button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+  .body-container{
+    position: relative;
+   
+  }
+  .body-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+  }
+  .body-container > .banderas,
+  .body-container > .contenido{
+    position: relative;
+  }
+
+  /* .body-opacity{
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .2;
+  } */
+  
+  .profesora, .ubicacion{
+    width: 320px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: teal;
+    padding-bottom:15px;
+    margin: auto;
+    color: white;
+    
+  }
+
+  .idiomas{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .icon{
+    width: 25px;
+    height: 25px;
+  }
+  /* 
+  .item-one{
+    background-image: url('../assets/online-clases.jpg'); 
+    background-size: cover;
+    height: 20%;
+    width: 50%;
+  }
+  .item-two{
+     background-image: url('../assets/beneficios.jpg'); 
+    background-size: cover;
+  }
+  .item-three{
+    background-image: url('../assets/bored.jpg');
+    background-size: cover;
+  }
+  .item-four{
+    background-image: url('../assets/speak.jpg');
+    background-size: cover;
+  }
+  .item-five{
+    background-image: url('../assets/teachers.jpg');
+    background-size: cover;
+  } */
+ 
+
+  .title{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: var(--font-title);
+  }
+  .title h1{
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: auto;
+	  letter-spacing: 0.0015em;
+    color: white;
+	text-shadow: 0 1px #673AB7, -1px 0  #673AB7, -1px 2px  #673AB7, -2px 1px  #673AB7,
+		-2px 3px  #673AB7, -3px 2px  #673AB7, -3px 4px  #673AB7, -4px 3px  #673AB7,
+		-4px 5px #673AB7, -5px 4px #673AB7, -5px 6px #673AB7, -6px 5px #673AB7,
+		-6px 7px #673AB7, -7px 6px #673AB7, -7px 8px #673AB7, -8px 7px #673AB7;
+	text-align: center;
+  }
+  .text{
+    text-align: center;
+    font-size: 1rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }  
+
+  @media screen and (min-width:1024px){
+    .title h1{
+    font-size: 3vw;
+    }
+    .text{
+      font-size: 1.5rem;
+      margin: 1.5rem 2.5rem;
+    }
+  }
+
+
+  .carousel, .carousel-item > img{
+    margin: 0 auto;
+    height: 66vh;
+    width: 95vw;
+    border-radius: 7px;
+    text-shadow: 3px 0px 7px rgb(103, 58, 183 ,0.8), -3px 0px 7px rgb(103, 58, 183 ,0.8), 0px 4px 7px rgb(103, 58, 183 ,0.8);
+  } 
+  @media screen and (min-width: 1024px){
+   
+    .carousel, .carousel-item > img{
+     
+      height: 66vh;
+      width: 70vw;
+     
+    }
+   
+  }
