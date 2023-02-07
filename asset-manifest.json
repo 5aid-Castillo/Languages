@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/github.io/Languages/static/css/main.2bc7d65e.css",
-    "main.js": "/github.io/Languages/static/js/main.ee74a07c.js",
-    "static/js/787.f26c5bb3.chunk.js": "/github.io/Languages/static/js/787.f26c5bb3.chunk.js",
-    "static/media/bored.jpg": "/github.io/Languages/static/media/bored.23272e71e901cad49307.jpg",
-    "static/media/teachers.jpg": "/github.io/Languages/static/media/teachers.d6be0110881370e87fe1.jpg",
-    "static/media/alumno.png": "/github.io/Languages/static/media/alumno.3dc99ca370ba93f7cf68.png",
-    "static/media/online-clases.jpg": "/github.io/Languages/static/media/online-clases.f2c39b63d82a46f10a35.jpg",
-    "static/media/beneficios.jpg": "/github.io/Languages/static/media/beneficios.5e5dc1ab0d979d3e2ee3.jpg",
-    "static/media/background.jpg": "/github.io/Languages/static/media/background.67bc048ad18e8795b21b.jpg",
-    "static/media/speak.jpg": "/github.io/Languages/static/media/speak.30f452b1f2f3f97f15cd.jpg",
-    "static/media/marcador (2).png": "/github.io/Languages/static/media/marcador (2).ac32ec0a111aeba03298.png",
-    "static/media/marcador (4).png": "/github.io/Languages/static/media/marcador (4).83887e7093e56c4ae5ce.png",
-    "static/media/marcador (1).png": "/github.io/Languages/static/media/marcador (1).120e344b30f0a3a79729.png",
-    "static/media/marcador (3).png": "/github.io/Languages/static/media/marcador (3).b293d5363351752caf25.png",
-    "index.html": "/github.io/Languages/index.html",
-    "main.2bc7d65e.css.map": "/github.io/Languages/static/css/main.2bc7d65e.css.map",
-    "main.ee74a07c.js.map": "/github.io/Languages/static/js/main.ee74a07c.js.map",
-    "787.f26c5bb3.chunk.js.map": "/github.io/Languages/static/js/787.f26c5bb3.chunk.js.map"
+    "main.css": "/Languages/static/css/main.b87041ec.css",
+    "main.js": "/Languages/static/js/main.58c10b3e.js",
+    "static/js/787.f26c5bb3.chunk.js": "/Languages/static/js/787.f26c5bb3.chunk.js",
+    "static/media/bored.jpg": "/Languages/static/media/bored.23272e71e901cad49307.jpg",
+    "static/media/teachers.jpg": "/Languages/static/media/teachers.d6be0110881370e87fe1.jpg",
+    "static/media/alumno.png": "/Languages/static/media/alumno.3dc99ca370ba93f7cf68.png",
+    "static/media/online-clases.jpg": "/Languages/static/media/online-clases.f2c39b63d82a46f10a35.jpg",
+    "static/media/beneficios.jpg": "/Languages/static/media/beneficios.5e5dc1ab0d979d3e2ee3.jpg",
+    "static/media/background.jpg": "/Languages/static/media/background.67bc048ad18e8795b21b.jpg",
+    "static/media/speak.jpg": "/Languages/static/media/speak.30f452b1f2f3f97f15cd.jpg",
+    "static/media/marcador (2).png": "/Languages/static/media/marcador (2).ac32ec0a111aeba03298.png",
+    "static/media/marcador (4).png": "/Languages/static/media/marcador (4).83887e7093e56c4ae5ce.png",
+    "static/media/marcador (1).png": "/Languages/static/media/marcador (1).120e344b30f0a3a79729.png",
+    "static/media/marcador (3).png": "/Languages/static/media/marcador (3).b293d5363351752caf25.png",
+    "index.html": "/Languages/index.html",
+    "main.b87041ec.css.map": "/Languages/static/css/main.b87041ec.css.map",
+    "main.58c10b3e.js.map": "/Languages/static/js/main.58c10b3e.js.map",
+    "787.f26c5bb3.chunk.js.map": "/Languages/static/js/787.f26c5bb3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bc7d65e.css",
-    "static/js/main.ee74a07c.js"
+    "static/css/main.b87041ec.css",
+    "static/js/main.58c10b3e.js"
   ]
 }
